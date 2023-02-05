@@ -13,14 +13,14 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.firstFilm = new Film(
       'Titanic',
-      'film romantique',
+      'romantic film',
       new Date(),
       'https://upload.wikimedia.org/wikipedia/commons/9/9c/Titanic_wreck_bow.jpg',
       5
     );
     this.secondFilm = new Film(
       'Mission impossible',
-      'film action',
+      'action film',
       new Date(),
       'https://occ-0-114-33.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeqXBbDRJ-bll6rdRKEO0HTmu0cOIJH7m3VeB9yi6eCqKDoxqpnsKopu-_XNgeB2uck7swIkYVKAQtv5Sdw3JJAs5dIpNo0_zosX.jpg?r=93f',
       0,
@@ -28,7 +28,7 @@ export class AppComponent implements OnInit {
     );
     this.thirdFilm= new Film(
       "Bakhta",
-      "musique",
+      "music",
       new Date(),
       'https://i.ytimg.com/vi/O6zEDqvxGXE/maxresdefault.jpg',
       2,
