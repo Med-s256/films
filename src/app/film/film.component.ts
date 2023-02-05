@@ -11,15 +11,15 @@ export class FilmComponent implements OnInit {
   buttonText!: string;
   ngOnInit(): void {
     
-    this.buttonText = 'oh snap!';
+    this.buttonText = 'Like';
   }
   onClick(): void {
-    if (this.buttonText == 'oh snap!') {
+    if (this.buttonText == 'Like') {
       this.film.snap++;
-      this.buttonText = 'snapped!!!';
+      this.buttonText = 'Dislike';
     } else {
       this.film.snap--;
-      this.buttonText = 'oh snap!';
+      this.buttonText = 'Like';
     }
   }
 }

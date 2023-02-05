@@ -1,9 +1,11 @@
 <div class="film">
 <h1>{{film.title}}</h1>
+<h3>{{film.location}}</h3>
 <p>{{film.description}}</p>
 <p>{{film.createDate | date}}</p>
 <img [src]="film.picture" [alt]="film.title">
 <p>
-    <button (click)="onClick()">{{buttonText}}</button> {{film.snap}}</p>
+    <button (click)="onClick()"><strong>{{buttonText}}</strong></button> {{film.snap}}</p>
+    <hr>
 </div>
 

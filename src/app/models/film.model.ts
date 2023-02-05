@@ -4,6 +4,7 @@ export class Film {
     public description: string,
     public createDate: Date,
     public picture: string,
-    public snap: number
+    public snap: number,
+    public location?: string
   ) {}
 }
