@@ -1,12 +1,6 @@
 <div class="general">
-    <div>
-<app-film [film]="firstFilm"></app-film></div>
-<div>
-<app-film [film]="secondFilm"></app-film></div>
-<div>
-<app-film [film]="thirdFilm"></app-film></div>
-<div>
-<app-film [film]="secondFilm"></app-film></div>
-<div>
-<app-film [film]="thirdFilm"></app-film></div>
+    
+<app-film *ngFor="let f of films" [film]="f"></app-film>
+
+
 </div>
