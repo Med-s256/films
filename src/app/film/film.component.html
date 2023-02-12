@@ -1,12 +1,17 @@
-<div class="film" [ngClass]="{favorite: buttonText==='Dislike' }">
-<h1>{{film.title}}</h1>
-<h3>{{film.location}}</h3>
-<p>{{film.description}}</p>
-<p>{{film.createDate | date:'medium'}}</p>
-<img [src]="film.picture" [alt]="film.title">
-<p>
-    <button (click)="onClick()"><strong>{{buttonText}}</strong></button> 
-    
-    <span [ngStyle]="{color: 'rgb(0,0,'+film.snap+')'}"> {{film.snap}}</span></p>
-    <hr>
+<div class="film" [ngClass]="{ favorite: buttonText === 'Dislike' }">
+  <h1>{{ film.title | uppercase }}</h1>
+  <h3>{{ film.location }}</h3>
+  <p>{{ film.description | titlecase }}</p>
+  <p>{{ film.createDate | date : "medium" }}</p>
+  <img [src]="film.picture" [alt]="film.title" />
+  <p>
+    <button (click)="onClick()">
+      <strong>{{ buttonText }}</strong>
+    </button>
+
+    <span [ngStyle]="{ color: 'rgb(0,0,' + film.snap + ')' }">
+      {{ film.snap }}</span
+    >
+  </p>
+  <hr />
 </div>
