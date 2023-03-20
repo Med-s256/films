@@ -14,15 +14,15 @@ ngOnInit(): void {
     'romantic film',
     new Date(),
     'https://upload.wikimedia.org/wikipedia/commons/9/9c/Titanic_wreck_bow.jpg',
-    5
+    50
   ),
   new Film(
     'Mission impossible',
     'action film',
     new Date(),
     'https://occ-0-114-33.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeqXBbDRJ-bll6rdRKEO0HTmu0cOIJH7m3VeB9yi6eCqKDoxqpnsKopu-_XNgeB2uck7swIkYVKAQtv5Sdw3JJAs5dIpNo0_zosX.jpg?r=93f',
-    0,
-    "Frensh film"
+    99,
+    "French film"
   ),
   new Film(
     "Bakhta",
@@ -44,8 +44,8 @@ ngOnInit(): void {
     'action film',
     new Date(),
     'https://occ-0-114-33.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeqXBbDRJ-bll6rdRKEO0HTmu0cOIJH7m3VeB9yi6eCqKDoxqpnsKopu-_XNgeB2uck7swIkYVKAQtv5Sdw3JJAs5dIpNo0_zosX.jpg?r=93f',
-    255,
-    "Frensh film"
+    257,
+    "French film"
   )
 ]
 }
